@@ -1,0 +1,63 @@
+/* no css usamos propriedades ao inves de atributos como no hmtl
+html-tags-atributos
+css-seletores-propriedade-valor*/
+body{
+    font-family: "Montserrat" , 'sens-serif';
+    background-color: rgba(179, 130, 186, 36%) ;
+    box-sizing: border-box;
+}
+
+.cabecalho {
+    text-align: center;
+}
+
+.cabecalho__titulo{
+    color:  #5d1277; 
+    font-weight: bold; 
+}
+
+.cabecalho__subtitulo{
+    text-align: center;
+}
+
+.container{
+    margin:0 auto;
+    margin-top: 50px;
+    width: 900px;
+
+}
+
+.container__conteudo , .container__ilustracao {
+    display:inline-block;
+    width: 400px;
+    margin: 0 20px;
+    vertical-align: middle; 
+}
+
+.conteudo__subtitulo{
+    font-size: 16px; 
+    margin: 10px 0 ; 
+}
+.ilustracao__gif{
+    width:300px;
+}
+
+.conteudo__btn--roxo{
+    background-color: #5d1277;
+    padding: 20px;
+    border: 1px solid  #5d1277 ; 
+    color: #ffffff; 
+    font-size:16px;
+    font-family: "Montserrat" , 'sens-serif';
+    text-transform: uppercase;
+}
+
+.conteudo__btn--transparente {
+    background-color: transparent;
+    padding: 20px;
+    border: 1px solid  #5d1277 ; 
+    color: #5d1277; 
+    font-size: 16px;
+    font-family: "Montserrat" , 'sens-serif';
+    text-transform: uppercase; 
+}
