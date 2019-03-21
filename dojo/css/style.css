@@ -1,5 +1,5 @@
 body{
-    margin: 0;
+    margin: 0; 
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -51,12 +51,18 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding-bottom: 25px; 
     
 }
 
 .conteudo__frase{
     display: flex;
     justify-content: center;
+    font-size:13px; 
+}
+
+.conteudo__link{
+    margin-left: 17px; 
 }
 
 .conteudo__video{
@@ -71,6 +77,8 @@ body{
     box-shadow: 1px 1px 1px 1px gray;
     color: white;
 }
+ 
+}
 
 a {
     text-decoration: none;
@@ -80,12 +88,14 @@ a {
     margin: 0 auto; 
     width: 40%;
     margin-top: 150px;  
+    padding-left: 50px; 
 }
 
 .universidades{
-    display: inline-flex;
+    display: flex;
     justify-content: space-between;
     margin-left: 27px; 
+    margin: 0 50px;
 }
 
 .universidades h6{
@@ -93,7 +103,7 @@ a {
 }
 
 .universidades__texto {
-    width: 18vw;
+    width: 25vw;
     margin: 0 5px;
 }
 
@@ -105,4 +115,9 @@ a {
     text-align: center; 
     display: flex;
     justify-content: center; 
+    color: white; 
 }
+ .depoimento{
+    margin-left: 0; 
+   
+ }
