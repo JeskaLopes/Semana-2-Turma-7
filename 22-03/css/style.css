@@ -1,0 +1,75 @@
+body{
+  
+    font-family: 'Montserrat', sans-serif;
+    
+}
+
+th{
+    border-right: 1px solid #CCC; 
+    text-align: center;
+    
+}
+
+tr td {
+    border-right:  1px solid #CCC; 
+    text-align: center; 
+}
+/* "">"" é um seletor por referencia' = pegue todos os filhos diretos de body e aplique o que eu mandei */
+/* odd- celulas impares--even-celulas-pares para pegar a segunda linha do body= nth-child(2)-segunda filha em relação ao body*/
+tbody > tr:nth-child(odd) {
+    background-color: #DFDFDF; 
+}
+
+.planos{
+    margin: 0 auto;
+    border-collapse: collapse; 
+    border-bottom: 1px solid #CCC; 
+}
+
+.autonomo{
+    background-color: #4698cc;
+}
+
+.linha-profissoes > th{
+    border-bottom: none; 
+
+}
+
+.pequenas-empresas{
+    background-color: #69cf86; 
+}
+
+tr td:first-child{
+    text-align:left; 
+}
+
+.comprar{
+    border: none;
+    text-transform: uppercase;
+    padding: 10px; 
+    border-radius: 5%;
+    background-color: rgb(181, 147, 194); 
+    font-weight: bold;
+    color: white; 
+    font-size: 11px; 
+}
+
+.linha-botoes > th {
+    padding: 10px 0; 
+    border-top: none; 
+}
+ .check-azul{
+     font-weight: bold; 
+     color: blue; 
+ }
+
+ .check-verde{
+     font-weight: bold; 
+     color: rgb(30, 196, 30); 
+ }
+
+ .cabecalho th {
+     font:12px;
+     color: white; 
+     padding: 15px; 
+ }
